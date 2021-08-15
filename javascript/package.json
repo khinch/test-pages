@@ -4,6 +4,7 @@
   "description": "Project to practise writing javascript and create some quick reference code. ",
   "main": "index.html",
   "scripts": {
+    "serve": "./node_modules/.bin/http-server",
     "test": "echo \"TODO...\""
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/khinch/test-pages/issues"
   },
-  "homepage": "https://github.com/khinch/test-pages#readme"
+  "homepage": "https://github.com/khinch/test-pages#readme",
+  "devDependencies": {
+    "http-server": "^13.0.0"
+  }
 }
